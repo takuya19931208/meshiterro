@@ -14,7 +14,7 @@
       <li>
         <%= link_to '投稿フォーム', new_post_image_path %>
       </li>
-      
+
       <li>
         <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
       </li>
@@ -29,7 +29,7 @@
         <%= link_to "ログイン", new_user_session_path %>
       </li>
     <% end %>
-    
+
     <%= yield %>
   </body>
 </html>
